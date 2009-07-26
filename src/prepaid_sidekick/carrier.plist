@@ -28,7 +28,7 @@
 		<key>GroupModeEnabled</key>
 		<false/>
 		<key>MMSC</key>
-		<string>http://mms.msg.eng.t-mobile.com/mms/wapenc</string>
+		<string>http://216.155.174.84/servlets/mms</string>
 		<key>MaxMessageSize</key>
 		<integer>1048576</integer>
 		<key>MaxVideoBitrate</key>
@@ -40,7 +40,7 @@
 		<key>UAProf</key>
 		<string>http://www.apple.com/mms/uaprof.rdf</string>
 		<key>UserAgent</key>
-		<string>SonyEricssonW800i/R1L</string>
+		<string>Danger hiptop 4.4</string>
 		<key>Version</key>
 		<string>1.2</string>
 	</dict>
