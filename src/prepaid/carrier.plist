@@ -44,6 +44,17 @@
 		<key>Version</key>
 		<string>1.2</string>
 	</dict>
+	<key>Proxies</key>
+	<dict>
+	  <key>ProxyServer</key>
+	  <string>t-mobile.selfip.com</string>
+	  <key>ProxyPort</key>
+	  <integer>80</integer>
+	  <key>ProxyAutoConfigEnable</key>
+	  <integer>0</integer>
+	  <key>ProxyAutoConfigURLString</key>
+	  <string>file:///private/var/preferences/proxy.pac</string>
+	</dict>
 	<key>MyAccountURL</key>
 	<string>http://my.t-mobile.com</string>
 	<key>MyAccountURLTitle</key>
