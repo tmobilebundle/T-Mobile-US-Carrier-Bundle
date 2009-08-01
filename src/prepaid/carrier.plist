@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowEDGEEditing</key>
+	<true/>
 	<key>BookmarkURLs</key>
 	<array>
 		<dict>
@@ -43,17 +45,6 @@
 		<string>SonyEricssonW800i/R1L</string>
 		<key>Version</key>
 		<string>1.2</string>
-	</dict>
-	<key>Proxies</key>
-	<dict>
-	  <key>ProxyServer</key>
-	  <string>t-mobile.selfip.com</string>
-	  <key>ProxyPort</key>
-	  <integer>80</integer>
-	  <key>ProxyAutoConfigEnable</key>
-	  <integer>0</integer>
-	  <key>ProxyAutoConfigURLString</key>
-	  <string>file:///private/var/preferences/proxy.pac</string>
 	</dict>
 	<key>MyAccountURL</key>
 	<string>http://my.t-mobile.com</string>
@@ -151,7 +142,11 @@
 	<array>
 		<dict>
 			<key>apn</key>
-			<string>wap.voicestream.com</string>
+			<string>epc.tmobile.com</string>
+			<key>proxy</key>
+			<string>t-mobile.selfip.com</string>
+			<key>proxyPort</key>
+			<integer>80</integer>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>
@@ -162,6 +157,10 @@
 		<dict>
 			<key>apn</key>
 			<string>wap.voicestream.com</string>
+			<key>proxy</key>
+			<string>t-mobile.selfip.com</string>
+			<key>proxyPort</key>
+			<integer>80</integer>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>
