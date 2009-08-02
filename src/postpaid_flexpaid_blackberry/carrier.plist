@@ -176,7 +176,7 @@
 		</dict>
 		<dict>
 			<key>apn</key>
-			<string>vvm.tmomail.net:143</string>
+			<string>66.94.3.69:143</string>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>
