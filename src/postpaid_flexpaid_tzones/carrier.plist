@@ -28,7 +28,7 @@
 		<key>GroupModeEnabled</key>
 		<false/>
 		<key>MMSC</key>
-		<string>216.155.174.84/servlets/mms</string>
+		<string>http://216.155.174.84/servlets/mms</string>
 		<key>MaxMessageSize</key>
 		<integer>1048576</integer>
 		<key>MaxVideoBitrate</key>
@@ -136,6 +136,8 @@
 	<true/>
 	<key>SupportsUserBusyCauseCode</key>
 	<false/>
+	<key>VMSMFilterNumber</key>
+	<string>123</string>
 	<key>VVMIgnoresIntlDataRoaming</key>
 	<false/>
 	<key>VisualVoicemailServiceName</key>
@@ -209,7 +211,11 @@
 		<false/>
 		<key>UsesSSL</key>
 		<false/>
+		<key>UserAgent</key>
+		<string>TMO VVM Lab</string>
 	</dict>
+	<key>sms_validity_period</key>
+	<integer>635040</integer>
 	<key>voicemail_context</key>
 	<integer>0</integer>
 </dict>

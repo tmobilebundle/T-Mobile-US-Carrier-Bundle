@@ -142,7 +142,7 @@
 	<array>
 		<dict>
 			<key>apn</key>
-			<string>epc.tmobile.com</string>
+			<string>wap.voicestream.com</string>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>

@@ -118,15 +118,86 @@
 	<true/>
 	<key>SupportsUserBusyCauseCode</key>
 	<false/>
+	<key>VMSMFilterNumber</key>
+	<string>123</string>
 	<key>VVMIgnoresIntlDataRoaming</key>
 	<false/>
 	<key>VisualVoicemailServiceName</key>
-	<string>none</string>
+	<string>IMAP</string>
 	<key>VoicemailPilotNumber</key>
 	<string>123</string>
 	<key>apns</key>
 	<array>
+		<dict>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>wap.voicestream.com</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>4</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>66.94.3.69:143</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>2</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
 	</array>
+	<key>com.apple.voicemail.imap</key>
+	<dict>
+		<key>AuthenticationScheme</key>
+		<string>DIGEST-MD5</string>
+		<key>BeaconAddress</key>
+		<string>122</string>
+		<key>BeaconServiceCenter</key>
+		<string>+12063130004</string>
+		<key>ClientManagesTrash</key>
+		<false/>
+		<key>DeliverLegacyNotificationsBeforeSetup</key>
+		<true/>
+		<key>GreetingNotification</key>
+		<true/>
+		<key>MaxGreetingDuration</key>
+		<integer>180</integer>
+		<key>MaxPINLength</key>
+		<integer>7</integer>
+		<key>MinPINLength</key>
+		<integer>4</integer>
+		<key>UsesMWI</key>
+		<false/>
+		<key>UsesSSL</key>
+		<false/>
+		<key>UserAgent</key>
+		<string>TMO VVM Lab</string>
+	</dict>
+	<key>sms_validity_period</key>
+	<integer>635040</integer>
 	<key>voicemail_context</key>
 	<integer>0</integer>
 </dict>
